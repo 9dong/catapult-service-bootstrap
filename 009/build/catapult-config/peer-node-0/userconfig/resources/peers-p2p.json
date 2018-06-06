@@ -2,26 +2,26 @@
   "_info": "this file contains a list of peer_node peers",
   "knownPeers": [
     {
-      "publicKey": "F728395D03B1F827D25EBC233B925E2D869EACE7F5C479E5D51E06BEA0FE26E8",
+      "publicKey": "738D614C0074D9CB8680BB6B458D2E334080EC33572D2D300866BFAF5764FADA",
       "endpoint": {
-        "host": "peer-node-0",
+        "host": "localhost",
         "port": 7900
       },
       "metadata": {
-        "name": "peer-node-0",
+        "name": "node2",
         "roles": "Peer"
       }
     },
     {
-      "publicKey": "738D614C0074D9CB8680BB6B458D2E334080EC33572D2D300866BFAF5764FADA",
+      "publicKey": "F728395D03B1F827D25EBC233B925E2D869EACE7F5C479E5D51E06BEA0FE26E8",
       "endpoint": {
-        "host": "peer-node-1",
+        "host": "47.75.16.212",
         "port": 7900
       },
       "metadata": {
-        "name": "peer-node-1",
+        "name": "HK",
         "roles": "Peer"
       }
-    }
+    }    
   ]
 }
