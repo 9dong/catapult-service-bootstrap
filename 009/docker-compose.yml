@@ -97,8 +97,8 @@ services:
     - "7900:7900"    
     - "7901:7901"    
     volumes:
-    - ./009/build/catapult-config/peer-node-0/userconfig/resources/:/userconfig/resources/
-    - ./009/data/peer-node-0:/data:rw
+    - ./build/catapult-config/peer-node-0/userconfig/resources/:/userconfig/resources/
+    - ./data/peer-node-0:/data:rw
     - ./bin/bash:/bin-mount
     - ./build/state:/state
     depends_on:
