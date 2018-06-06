@@ -4,7 +4,7 @@
     {
       "publicKey": "738D614C0074D9CB8680BB6B458D2E334080EC33572D2D300866BFAF5764FADA",
       "endpoint": {
-        "host": "localhost",
+        "host": "peer-node-0",
         "port": 7900
       },
       "metadata": {

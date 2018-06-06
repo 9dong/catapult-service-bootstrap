@@ -1,0 +1,367 @@
+2018-06-06 08:25:30.932278 0x00007f9f24303740: <info> (server::ServerMain.cpp@61) booting local node with public key 3A0C3A4020A180A9262ED8C872C88AAA86A9C78748274133CCBE7B8225B35508
+2018-06-06 08:25:30.940288 0x00007f9f24303740: <info> (thread::IoServiceThreadPool.cpp@105) server IoServiceThreadPool spawned 4 workers
+2018-06-06 08:25:30.940605 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.nodediscovery.so
+2018-06-06 08:25:30.943355 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.nodediscovery.so loaded as 0x557dd8ed1e30
+2018-06-06 08:25:30.943425 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.nodediscovery
+2018-06-06 08:25:30.944280 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.timesync.so
+2018-06-06 08:25:30.946205 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.timesync.so loaded as 0x557dd8ecf900
+2018-06-06 08:25:30.946243 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.timesync
+2018-06-06 08:25:30.946422 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.networkheight.so
+2018-06-06 08:25:30.947869 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.networkheight.so loaded as 0x557dd8ed0530
+2018-06-06 08:25:30.947921 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.networkheight
+2018-06-06 08:25:30.947955 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.partialtransaction.so
+2018-06-06 08:25:30.950451 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.partialtransaction.so loaded as 0x557dd8ed0e10
+2018-06-06 08:25:30.950498 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.partialtransaction
+2018-06-06 08:25:30.953593 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.hashcache.so
+2018-06-06 08:25:30.954594 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.hashcache.so loaded as 0x557dd8ed5910
+2018-06-06 08:25:30.954624 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.hashcache
+2018-06-06 08:25:30.954641 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.packetserver.so
+2018-06-06 08:25:30.955921 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.packetserver.so loaded as 0x557dd8ed38c0
+2018-06-06 08:25:30.955955 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.packetserver
+2018-06-06 08:25:30.955975 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.sync.so
+2018-06-06 08:25:30.957340 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.sync.so loaded as 0x557dd8ed41a0
+2018-06-06 08:25:30.957369 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.sync
+2018-06-06 08:25:30.957669 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.unbondedpruning.so
+2018-06-06 08:25:30.958894 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.unbondedpruning.so loaded as 0x557dd8edb030
+2018-06-06 08:25:30.958919 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.unbondedpruning
+2018-06-06 08:25:30.958934 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.mongo.so
+2018-06-06 08:25:30.961581 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.mongo.so loaded as 0x557dd8edb4f0
+2018-06-06 08:25:30.961609 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.mongo
+2018-06-06 08:25:30.962906 0x00007f9f24303740: <info> (thread::IoServiceThreadPool.cpp@105) bulk writer IoServiceThreadPool spawned 4 workers
+2018-06-06 08:25:30.964805 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.multisig.so
+2018-06-06 08:25:30.965846 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.multisig.so loaded as 0x557dd8ee6c80
+2018-06-06 08:25:30.965873 0x00007f9f24303740: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.multisig
+2018-06-06 08:25:30.965908 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.namespace.so
+2018-06-06 08:25:30.966543 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.namespace.so loaded as 0x557dd8ee9240
+2018-06-06 08:25:30.966564 0x00007f9f24303740: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.namespace
+2018-06-06 08:25:30.966762 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.lock.so
+2018-06-06 08:25:30.967608 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.lock.so loaded as 0x557dd8eed440
+2018-06-06 08:25:30.967630 0x00007f9f24303740: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.lock
+2018-06-06 08:25:30.967665 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.transfer.so
+2018-06-06 08:25:30.967890 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.transfer.so loaded as 0x557dd8ef15b0
+2018-06-06 08:25:30.967917 0x00007f9f24303740: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.transfer
+2018-06-06 08:25:30.967968 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.mongo.plugins.aggregate.so
+2018-06-06 08:25:30.968250 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.mongo.plugins.aggregate.so loaded as 0x557dd8ef1e40
+2018-06-06 08:25:30.968272 0x00007f9f24303740: <info> (src::MongoPluginLoader.cpp@36) registering dynamic mongo plugin catapult.mongo.plugins.aggregate
+2018-06-06 08:25:30.968326 0x00007f9f24303740: <debug> (src::ExternalCacheStorageBuilder.h@49) creating ExternalCacheStorage with 7 storages
+2018-06-06 08:25:30.971654 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.filechain.so
+2018-06-06 08:25:30.972279 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.filechain.so loaded as 0x557dd8effa40
+2018-06-06 08:25:30.972305 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.filechain
+2018-06-06 08:25:30.972315 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.transactionsink.so
+2018-06-06 08:25:30.972787 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.transactionsink.so loaded as 0x557dd8f005d0
+2018-06-06 08:25:30.972805 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.transactionsink
+2018-06-06 08:25:30.972816 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.zeromq.so
+2018-06-06 08:25:30.975120 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.zeromq.so loaded as 0x557dd8f00d20
+2018-06-06 08:25:30.975145 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.zeromq
+2018-06-06 08:25:30.975628 0x00007f9f24303740: <info> (thread::IoServiceThreadPool.cpp@105) ZeroMqEntityPublisher IoServiceThreadPool spawned 1 workers
+2018-06-06 08:25:30.975656 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.diagnostics.so
+2018-06-06 08:25:30.976474 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.diagnostics.so loaded as 0x557dd8f08be0
+2018-06-06 08:25:30.976496 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.diagnostics
+2018-06-06 08:25:30.976512 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libextension.addressextraction.so
+2018-06-06 08:25:30.977534 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libextension.addressextraction.so loaded as 0x557dd8f09a40
+2018-06-06 08:25:30.977553 0x00007f9f24303740: <info> (extensions::LocalNodeBootstrapper.cpp@102) registering dynamic extension extension.addressextraction
+2018-06-06 08:25:30.977675 0x00007f9f24303740: <info> (local::BasicLocalNode.cpp@64) registering system plugins
+2018-06-06 08:25:30.977700 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.signature.so
+2018-06-06 08:25:30.977953 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.signature.so loaded as 0x557dd8f0b340
+2018-06-06 08:25:30.977974 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.signature
+2018-06-06 08:25:30.978013 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.hashcache.so
+2018-06-06 08:25:30.978286 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.hashcache.so loaded as 0x557dd8f0bb80
+2018-06-06 08:25:30.978305 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.hashcache
+2018-06-06 08:25:30.978349 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.aggregate.so
+2018-06-06 08:25:30.978611 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.aggregate.so loaded as 0x557dd8f0c800
+2018-06-06 08:25:30.978632 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.aggregate
+2018-06-06 08:25:30.978689 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.lock.so
+2018-06-06 08:25:30.979105 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.lock.so loaded as 0x557dd8f0d090
+2018-06-06 08:25:30.979127 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.lock
+2018-06-06 08:25:30.979200 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.transfer.so
+2018-06-06 08:25:30.979854 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.transfer.so loaded as 0x557dd8f0dfa0
+2018-06-06 08:25:30.979880 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.transfer
+2018-06-06 08:25:30.979936 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.namespace.so
+2018-06-06 08:25:30.980711 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.namespace.so loaded as 0x557dd8f0e780
+2018-06-06 08:25:30.980756 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.namespace
+2018-06-06 08:25:30.980871 0x00007f9f24303740: <info> (plugins::PluginModule.cpp@79) loading plugin from libcatapult.plugins.multisig.so
+2018-06-06 08:25:30.981216 0x00007f9f24303740: <debug> (plugins::PluginModule.cpp@92) plugin libcatapult.plugins.multisig.so loaded as 0x557dd8f110b0
+2018-06-06 08:25:30.981240 0x00007f9f24303740: <info> (plugins::PluginLoader.cpp@50) registering dynamic plugin catapult.plugins.multisig
+2018-06-06 08:25:30.981303 0x00007f9f24303740: <debug> (local::BasicLocalNode.cpp@67) initializing cache
+2018-06-06 08:25:30.981347 0x00007f9f24303740: <debug> (cache::CatapultCacheBuilder.h@44) creating CatapultCache with 8 subcaches
+2018-06-06 08:25:30.981372 0x00007f9f24303740: <debug> (local::BasicLocalNode.cpp@70) registering counters
+2018-06-06 08:25:30.981410 0x00007f9f24303740: <info> (utils::StackLogger.h@37) pushing scope 'booting local node'
+2018-06-06 08:25:30.982635 0x00007f9f24303740: <debug> (src::MongoNemesisBlockPreparer.cpp@47) storage is already initialized with height 501
+2018-06-06 08:25:30.982824 0x00007f9f24303740: <warning> (utils::StackLogger.h@37) pushing scope 'load state'
+2018-06-06 08:25:30.983444 0x00007f9f24303740: <debug> (cache::SupplementalDataStorage.cpp@52) read last recalculation height 359 (score = [0, 6626051554312546], height = 501)
+2018-06-06 08:25:30.983522 0x00007f9f24303740: <warning> (utils::StackLogger.h@47) popping scope 'load state' (0ms)
+2018-06-06 08:25:30.983581 0x00007f9f24303740: <info> (src::FileBlockChainStorage.cpp@37) loaded block chain from state (height = 501, score = 6626051554312546)
+2018-06-06 08:25:30.983599 0x00007f9f24303740: <debug> (local::BasicLocalNode.cpp@77) booting extension services
+2018-06-06 08:25:30.983674 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Rooted - mongo.services services
+2018-06-06 08:25:30.983690 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Diagnostics services
+2018-06-06 08:25:30.983793 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Rooted - zeromq.publisher services
+2018-06-06 08:25:30.983808 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering PtBootstrapper services
+2018-06-06 08:25:30.984335 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering NetworkPacketWriters services
+2018-06-06 08:25:30.984451 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::writers service 1
+2018-06-06 08:25:30.984471 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering HashCache services
+2018-06-06 08:25:30.984484 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering UnbondedPruning services
+2018-06-06 08:25:30.984508 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Dispatcher services
+2018-06-06 08:25:30.987249 0x00007f9f24303740: <info> (thread::IoServiceThreadPool.cpp@105) validator IoServiceThreadPool spawned 4 workers
+2018-06-06 08:25:30.988387 0x00007f9f24303740: <debug> (src::DispatcherService.cpp@91) enabling auditing to "/data/audit/block dispatcher/68804730988"
+2018-06-06 08:25:30.989731 0x00007f9f24303740: <info> (disruptor::ConsumerDispatcher.cpp@95) block dispatcher ConsumerDispatcher spawned 8 workers
+2018-06-06 08:25:30.989778 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::dispatcher service service 1
+2018-06-06 08:25:30.989890 0x00007f9f24303740: <debug> (src::DispatcherService.cpp@91) enabling auditing to "/data/audit/transaction dispatcher/68804730989"
+2018-06-06 08:25:30.993706 0x00007f9f24303740: <info> (disruptor::ConsumerDispatcher.cpp@95) transaction dispatcher ConsumerDispatcher spawned 6 workers
+2018-06-06 08:25:30.993760 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::dispatcher service service 2
+2018-06-06 08:25:30.993785 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering NetworkHeight services
+2018-06-06 08:25:30.993850 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Sync services
+2018-06-06 08:25:30.993912 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering PtDispatcher services
+2018-06-06 08:25:30.994906 0x00007f9f24303740: <info> (thread::IoServiceThreadPool.cpp@105) ptUpdater IoServiceThreadPool spawned 4 workers
+2018-06-06 08:25:30.998084 0x00007f9f24303740: <info> (disruptor::ConsumerDispatcher.cpp@95) partial transaction dispatcher ConsumerDispatcher spawned 4 workers
+2018-06-06 08:25:30.998155 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::partial dispatcher service 1
+2018-06-06 08:25:30.998172 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering TransactionSink services
+2018-06-06 08:25:30.998269 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Pt services
+2018-06-06 08:25:30.998295 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::partial service 1
+2018-06-06 08:25:30.998318 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering PtSyncSource services
+2018-06-06 08:25:30.998332 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering NodeDiscovery services
+2018-06-06 08:25:30.998551 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::node_discovery service 1
+2018-06-06 08:25:30.998596 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering TimeSynchronization services
+2018-06-06 08:25:30.998634 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::timesync service 1
+2018-06-06 08:25:30.998660 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering NetworkPacketReaders services
+2018-06-06 08:25:30.998730 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::readers service 1
+2018-06-06 08:25:30.998807 0x00007f9f24303740: <info> (net::AsyncTcpServer.cpp@74) AsyncTcpServer created around 0.0.0.0:7900
+2018-06-06 08:25:30.998870 0x00007f9f24303740: <info> (net::AsyncTcpServer.cpp@101) AsyncTcpServer spawned 1 pending accepts
+2018-06-06 08:25:30.998906 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::readers service 2
+2018-06-06 08:25:30.998927 0x00007f9f24303740: <debug> (extensions::ExtensionManager.cpp@88) registering Scheduler services
+2018-06-06 08:25:30.998946 0x00007f9f24303740: <debug> (thread::MultiServicePool.h@82) registered server::scheduler service 1
+2018-06-06 08:25:30.998984 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'logging task' is scheduled in 00:01:00
+2018-06-06 08:25:30.999051 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'batch transaction task' is scheduled in 00:00:00.500
+2018-06-06 08:25:30.999160 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'network chain height detection' is scheduled in 00:00:01
+2018-06-06 08:25:30.999222 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'connect peers task for service Sync' is scheduled in 00:00:00.010
+2018-06-06 08:25:30.999280 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'synchronizer task' is scheduled in 00:00:03
+2018-06-06 08:25:30.999333 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'pull unconfirmed transactions task' is scheduled in 00:00:04
+2018-06-06 08:25:30.999413 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'batch partial transaction task' is scheduled in 00:00:00.500
+2018-06-06 08:25:30.999479 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'connect peers task for service Pt' is scheduled in 00:00:00.010
+2018-06-06 08:25:30.999548 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'pull partial transactions task' is scheduled in 00:00:10
+2018-06-06 08:25:30.999628 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'node discovery ping task' is scheduled in 00:02:00
+2018-06-06 08:25:30.999699 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'node discovery peers task' is scheduled in 00:01:00
+2018-06-06 08:25:30.999772 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'time synchronization task' is scheduled in 00:01:00
+2018-06-06 08:25:30.999848 0x00007f9f24303740: <debug> (thread::Scheduler.cpp@47) task 'age peers task for service Readers' is scheduled in 00:01:00
+2018-06-06 08:25:30.999920 0x00007f9f24303740: <info> (utils::StackLogger.h@47) popping scope 'booting local node' (18ms)
+2018-06-06 08:25:30.999979 0x00007f9f24303740: <info> (server::Signals.cpp@44) waiting for termination signal
+2018-06-06 08:25:31.009514 0x00007f9f1bfff700: <debug> (extensions::PeersConnectionTasks.cpp@76) no add candidates for service 1346458196
+2018-06-06 08:25:31.009896 0x00007f9f21bcd700: <error> (ionet::PacketSocket.cpp@456) failed when connecting to 'peer-node-0': Connection refused (cancelled? false)
+2018-06-06 08:25:31.009950 0x00007f9f21bcd700: <debug> (net::PacketWriters.cpp@142) aborting connection to: BJ @ peer-node-0
+2018-06-06 08:25:31.009988 0x00007f9f21bcd700: <warning> (extensions::PeersConnectionTasks.cpp@97) connection attempt to BJ @ peer-node-0 completed with Socket_Error
+2018-06-06 08:25:31.010008 0x00007f9f21bcd700: <warning> (extensions::PeersConnectionTasks.cpp@120) unable to connect to any nodes for service 1398361667
+2018-06-06 08:25:31.999252 0x00007f9f21bcd700: <warning> (net::PacketWriters.cpp@303) [1 log count] no packet io available for checkout
+2018-06-06 08:25:31.999379 0x00007f9f21bcd700: <warning> (src::NetworkPacketWritersService.cpp@46) could not find any peer for detecting chain heights
+2018-06-06 08:25:33.999519 0x00007f9f21bcd700: <warning> (chain::RemoteApiForwarder.h@54) [1 log count] no packet io available for operation 'synchronizer task'
+2018-06-06 08:25:34.999519 0x00007f9f1bfff700: <warning> (chain::RemoteApiForwarder.h@54) [1 log count] no packet io available for operation 'pull unconfirmed transactions task'
+2018-06-06 08:25:40.999742 0x00007f9f1bfff700: <warning> (net::PacketWriters.cpp@303) [1 log count] no packet io available for checkout
+2018-06-06 08:25:40.999865 0x00007f9f1bfff700: <warning> (chain::RemoteApiForwarder.h@54) [1 log count] no packet io available for operation 'pull partial transactions task'
+2018-06-06 08:25:46.999622 0x00007f9f21bcd700: <warning> (src::NetworkPacketWritersService.cpp@46) could not find any peer for detecting chain heights
+2018-06-06 08:26:01.999993 0x00007f9f21bcd700: <warning> (src::NetworkPacketWritersService.cpp@46) could not find any peer for detecting chain heights
+2018-06-06 08:26:17.000340 0x00007f9f20bcb700: <warning> (src::NetworkPacketWritersService.cpp@46) could not find any peer for detecting chain heights
+2018-06-06 08:26:30.999555 0x00007f9f21bcd700: <info> (src::DiagnosticsService.cpp@39) --- current counter values ---
+  MEM CUR RSS : 43
+  MEM MAX RSS : 43
+ MEM CUR VIRT : 2452
+  MEM SHR RSS : 23
+     ACNTST C : 26
+     BLKDIF C : 501
+       HASH C : 480
+   HASHLOCK C : 0
+ SECRETLOCK C : 0
+         NS C : 2
+      NS C AS : 2
+      NS C DS : 2
+     MOSAIC C : 3
+  MOSAIC C DS : 3
+     UT CACHE : 0
+     PT CACHE : 0
+      WRITERS : 0
+ BLK ELEM TOT : 0
+ BLK ELEM ACT : 0
+  TX ELEM TOT : 0
+  TX ELEM ACT : 0
+RB COMMIT ALL : 0
+RB COMMIT RCT : 0
+RB IGNORE ALL : 0
+RB IGNORE RCT : 0
+  PT ELEM TOT : 0
+  PT ELEM ACT : 0
+   PT WRITERS : 0
+ ACTIVE PINGS : 0
+  TOTAL PINGS : 0
+SUCCESS PINGS : 0
+TS OFFSET ABS : 0
+TS OFFSET DIR : 0
+  TS NODE AGE : 0
+ TS TOTAL REQ : 0
+      READERS : 0
+        TASKS : 13
+2018-06-06 08:26:31.000057 0x00007f9f20bcb700: <warning> (src::BatchPeersRequestor.cpp@37) [1 log count] no packet io available for requesting peers
+2018-06-06 08:26:31.003374 0x00007f9f1bfff700: <debug> (src::TimeSynchronizationUtils.cpp@68) timesync: number of selected nodes: 0
+2018-06-06 08:26:31.003539 0x00007f9f1bfff700: <debug> (src::TimeSynchronizationUtils.cpp@134) timesync: number of retrieved samples: 0
+2018-06-06 08:26:31.003651 0x00007f9f1bfff700: <warning> (src::TimeSynchronizer.cpp@58) no synchronization samples available to calculate network time
+2018-06-06 08:26:31.009819 0x00007f9f21bcd700: <debug> (extensions::PeersConnectionTasks.cpp@76) no add candidates for service 1346458196
+2018-06-06 08:26:31.013511 0x00007f9f1bfff700: <info> (ionet::PacketSocket.cpp@448) connected to peer-node-0 [172.19.0.3:7900]
+2018-06-06 08:26:31.014587 0x00007f9f213cc700: <debug> (net::Challenge.cpp@47) preparing challenge response
+2018-06-06 08:26:31.059303 0x00007f9f21bcd700: <debug> (net::Challenge.cpp@55) verify signature result: true
+2018-06-06 08:26:31.059373 0x00007f9f21bcd700: <debug> (net::VerifyPeer.cpp@188) VerifyServer completed with Success
+2018-06-06 08:26:31.059420 0x00007f9f21bcd700: <info> (extensions::PeersConnectionTasks.cpp@97) connection attempt to BJ @ peer-node-0 completed with Accepted
+2018-06-06 08:26:32.000860 0x00007f9f20bcb700: <warning> (net::PacketWriters.cpp@303) [45 log count] no packet io available for checkout
+2018-06-06 08:26:32.003615 0x00007f9f1bfff700: <debug> (src::NetworkHeightService.cpp@45) network chain height increased from 0 to 507
+2018-06-06 08:26:32.040818 0x00007f9f21bcd700: <debug> (net::Challenge.cpp@55) verify signature result: true
+2018-06-06 08:26:32.040879 0x00007f9f21bcd700: <debug> (net::Challenge.cpp@47) preparing challenge response
+2018-06-06 08:26:32.041141 0x00007f9f20bcb700: <debug> (net::VerifyPeer.cpp@107) VerifyClient completed with Success (None)
+2018-06-06 08:26:32.041237 0x00007f9f21bcd700: <debug> (net::PacketReaders.cpp@189) accepted connection from '172.19.0.3' as 738D614C0074D9CB8680BB6B458D2E334080EC33572D2D300866BFAF5764FADA
+2018-06-06 08:26:32.041300 0x00007f9f21bcd700: <info> (extensions::NetworkUtils.h@49) accept result to local node port 7900: Accepted
+2018-06-06 08:26:32.120397 0x00007f9f1bfff700: <info> (ionet::PacketSocket.cpp@51) eof reading from socket: End of file
+2018-06-06 08:26:32.120527 0x00007f9f1bfff700: <warning> (net::ChainedSocketReader.cpp@66) reader (738D614C0074D9CB8680BB6B458D2E334080EC33572D2D300866BFAF5764FADA @ 172.19.0.3) read completed with error: Closed
+2018-06-06 08:26:32.120613 0x00007f9f1bfff700: <debug> (net::PacketReaders.cpp@130) closing connection to 738D614C0074D9CB8680BB6B458D2E334080EC33572D2D300866BFAF5764FADA - 0
+2018-06-06 08:26:32.120937 0x00007f9f1bfff700: <debug> (net::AsyncTcpServer.cpp@184) bypassing Accept due to limit (numPendingAccepts=1, numOpenConnectionSlots=511)
+2018-06-06 08:26:34.005736 0x00007f9f21bcd700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6626051554312546 (local) vs 6686051554312453 (remote)
+2018-06-06 08:26:34.048565 0x00007f9f1bfff700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 501 (fork depth = 0)
+2018-06-06 08:26:34.127002 0x00007f9f20bcb700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 6 blocks (heights 502 - 507)
+2018-06-06 08:26:34.127072 0x00007f9f20bcb700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 1 (6 blocks (heights 502 - 507) [1A000000] from Remote_Pull)
+2018-06-06 08:26:34.127121 0x00007f9f20bcb700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:26:34.264505 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 89 transactions, reverted 0 transactions
+2018-06-06 08:26:34.271901 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 1 (6 blocks (heights 502 - 507) [A6214AE3] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:26:35.005668 0x00007f9f20bcb700: <debug> (chain::EntitiesSynchronizer.h@51) peer returned 11 unconfirmed transactions
+2018-06-06 08:26:35.005827 0x00007f9f20bcb700: <info> (chain::RemoteApiForwarder.h@65) completed 'pull unconfirmed transactions task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:26:38.044231 0x00007f9f1bfff700: <debug> (chain::EntitiesSynchronizer.h@51) peer returned 3 unconfirmed transactions
+2018-06-06 08:26:38.044390 0x00007f9f1bfff700: <info> (chain::RemoteApiForwarder.h@65) completed 'pull unconfirmed transactions task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:26:40.129132 0x00007f9f1bfff700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6686051554312453 (local) vs 6696051554312434 (remote)
+2018-06-06 08:26:40.167375 0x00007f9f213cc700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 507 (fork depth = 0)
+2018-06-06 08:26:40.207156 0x00007f9f1bfff700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 1 blocks (heights 508 - 508)
+2018-06-06 08:26:40.207242 0x00007f9f1bfff700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 2 (1 blocks (heights 508 - 508) [1A000000] from Remote_Pull)
+2018-06-06 08:26:40.207283 0x00007f9f1bfff700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:26:40.246310 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 17 transactions, reverted 0 transactions
+2018-06-06 08:26:40.246409 0x00007f9ec37fe700: <debug> (cache::MemoryUtCache.cpp@173) removing 14 elements from ut cache
+2018-06-06 08:26:40.255298 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 2 (1 blocks (heights 508 - 508) [2F8ACF21] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:26:41.004965 0x00007f9f213cc700: <warning> (net::PacketWriters.cpp@303) [21 log count] no packet io available for checkout
+2018-06-06 08:26:41.005126 0x00007f9f213cc700: <warning> (chain::RemoteApiForwarder.h@54) [20 log count] no packet io available for operation 'pull partial transactions task'
+2018-06-06 08:26:44.045823 0x00007f9f21bcd700: <debug> (chain::EntitiesSynchronizer.h@51) peer returned 1 unconfirmed transactions
+2018-06-06 08:26:44.045870 0x00007f9f21bcd700: <info> (chain::RemoteApiForwarder.h@65) completed 'pull unconfirmed transactions task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:26:45.450541 0x00007f9f213cc700: <debug> (net::Challenge.cpp@55) verify signature result: true
+2018-06-06 08:26:45.450596 0x00007f9f213cc700: <debug> (net::Challenge.cpp@47) preparing challenge response
+2018-06-06 08:26:45.450741 0x00007f9f213cc700: <debug> (net::VerifyPeer.cpp@107) VerifyClient completed with Success (None)
+2018-06-06 08:26:45.450792 0x00007f9f213cc700: <debug> (net::PacketReaders.cpp@189) accepted connection from '172.19.0.7' as 59DEDAA85E8A559968AD3503A90F59AC86ECB66324CB2DDC22FA7952AC67D63E
+2018-06-06 08:26:45.450811 0x00007f9f213cc700: <info> (extensions::NetworkUtils.h@49) accept result to local node port 7900: Accepted
+2018-06-06 08:26:47.004590 0x00007f9f21bcd700: <debug> (src::NetworkHeightService.cpp@45) network chain height increased from 507 to 508
+2018-06-06 08:26:47.083528 0x00007f9f213cc700: <debug> (chain::EntitiesSynchronizer.h@51) peer returned 3 unconfirmed transactions
+2018-06-06 08:26:47.084145 0x00007f9f213cc700: <info> (chain::RemoteApiForwarder.h@65) completed 'pull unconfirmed transactions task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:26:51.028077 0x00007f9f1bfff700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 10 (1 txes [652D3000] from Remote_Push)
+2018-06-06 08:26:51.048790 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 10 (1 txes [42A2E866] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:01.032721 0x00007f9f20bcb700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 20 (1 txes [0070C176] from Remote_Push)
+2018-06-06 08:27:01.065558 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 20 (1 txes [97AB99B7] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:01.214034 0x00007f9f20bcb700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6696051554312434 (local) vs 6706051554312414 (remote)
+2018-06-06 08:27:01.252107 0x00007f9f1bfff700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 508 (fork depth = 0)
+2018-06-06 08:27:01.291813 0x00007f9f213cc700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 1 blocks (heights 509 - 509)
+2018-06-06 08:27:01.291954 0x00007f9f213cc700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 3 (1 blocks (heights 509 - 509) [1A000000] from Remote_Pull)
+2018-06-06 08:27:01.292044 0x00007f9f213cc700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:27:01.336302 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 18 transactions, reverted 0 transactions
+2018-06-06 08:27:01.336420 0x00007f9ec37fe700: <debug> (cache::MemoryUtCache.cpp@173) removing 20 elements from ut cache
+2018-06-06 08:27:01.341163 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 3 (1 blocks (heights 509 - 509) [3B9242B2] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:27:02.005983 0x00007f9f1bfff700: <debug> (src::NetworkHeightService.cpp@45) network chain height increased from 508 to 509
+2018-06-06 08:27:11.536640 0x00007f9f20bcb700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 30 (1 txes [10320010] from Remote_Push)
+2018-06-06 08:27:11.576802 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 30 (1 txes [038088D5] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:19.297991 0x00007f9f20bcb700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6706051554312414 (local) vs 6716051554312395 (remote)
+2018-06-06 08:27:19.339675 0x00007f9f213cc700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 505 (fork depth = 4)
+2018-06-06 08:27:19.379372 0x00007f9f21bcd700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 5 blocks (heights 506 - 510)
+2018-06-06 08:27:19.379415 0x00007f9f21bcd700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 4 (5 blocks (heights 506 - 510) [1A000000] from Remote_Pull)
+2018-06-06 08:27:19.379431 0x00007f9f21bcd700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:27:19.419198 0x00007f9ec37fe700: <debug> (src::DispatcherService.cpp@107) rolling back block at height 509
+2018-06-06 08:27:19.419410 0x00007f9ec37fe700: <debug> (src::DispatcherService.cpp@107) rolling back block at height 508
+2018-06-06 08:27:19.419525 0x00007f9ec37fe700: <debug> (src::DispatcherService.cpp@107) rolling back block at height 507
+2018-06-06 08:27:19.419624 0x00007f9ec37fe700: <debug> (src::DispatcherService.cpp@107) rolling back block at height 506
+2018-06-06 08:27:19.421533 0x00007f9ec37fe700: <info> (src::MongoBlockStorage.cpp@64) deleted 4 blocks
+2018-06-06 08:27:19.424925 0x00007f9ec37fe700: <info> (src::MongoBlockStorage.cpp@64) deleted 54 transactions
+2018-06-06 08:27:19.431457 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 72 transactions, reverted 0 transactions
+2018-06-06 08:27:19.431518 0x00007f9ec37fe700: <debug> (cache::MemoryUtCache.cpp@173) removing 19 elements from ut cache
+2018-06-06 08:27:19.437368 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 4 (5 blocks (heights 506 - 510) [FC968505] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:27:21.540820 0x00007f9f21bcd700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 40 (1 txes [0070C176] from Remote_Push)
+2018-06-06 08:27:21.575826 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 40 (1 txes [8099FAEE] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:31.001251 0x00007f9f1bfff700: <debug> (src::BatchPeersRequestor.cpp@48) partner node BJ @ peer-node-0 returned 1 peers
+2018-06-06 08:27:31.001406 0x00007f9f1bfff700: <debug> (src::PeersProcessor.cpp@40) initiating ping with HK @ 47.75.16.212
+2018-06-06 08:27:31.010231 0x00007f9f21bcd700: <debug> (extensions::PeersConnectionTasks.cpp@76) no add candidates for service 1346458196
+2018-06-06 08:27:31.025188 0x00007f9f20bcb700: <error> (ionet::PacketSocket.cpp@456) failed when connecting to '47.75.16.212': Connection refused (cancelled? false)
+2018-06-06 08:27:31.025464 0x00007f9f213cc700: <debug> (net::BriefServerRequestor.h@91) ping request connection to 'HK @ 47.75.16.212' failed: Socket_Error
+2018-06-06 08:27:31.025780 0x00007f9f20bcb700: <info> (src::PeersProcessor.cpp@51) ping with HK @ 47.75.16.212 completed with: Failure_Connection
+2018-06-06 08:27:31.059605 0x00007f9f21bcd700: <debug> (extensions::PeersConnectionTasks.cpp@76) no add candidates for service 1398361667
+2018-06-06 08:27:31.384071 0x00007f9f20bcb700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6716051554312395 (local) vs 6726051554312383 (remote)
+2018-06-06 08:27:31.424802 0x00007f9f213cc700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 510 (fork depth = 0)
+2018-06-06 08:27:31.463577 0x00007f9f21bcd700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 1 blocks (heights 511 - 511)
+2018-06-06 08:27:31.463690 0x00007f9f21bcd700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 5 (1 blocks (heights 511 - 511) [1A000000] from Remote_Pull)
+2018-06-06 08:27:31.463774 0x00007f9f21bcd700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:27:31.507069 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 14 transactions, reverted 0 transactions
+2018-06-06 08:27:31.507187 0x00007f9ec37fe700: <debug> (cache::MemoryUtCache.cpp@173) removing 15 elements from ut cache
+2018-06-06 08:27:31.510631 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 5 (1 blocks (heights 511 - 511) [9EDA2EE9] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:27:32.007726 0x00007f9f20bcb700: <warning> (net::PacketWriters.cpp@303) [49 log count] no packet io available for checkout
+2018-06-06 08:27:32.008965 0x00007f9f21bcd700: <debug> (src::NetworkHeightService.cpp@45) network chain height increased from 509 to 511
+2018-06-06 08:27:32.044690 0x00007f9f20bcb700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 50 (1 txes [0070C176] from Remote_Push)
+2018-06-06 08:27:32.073524 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 50 (1 txes [9705E436] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:41.009564 0x00007f9f1bfff700: <warning> (net::PacketWriters.cpp@303) [42 log count] no packet io available for checkout
+2018-06-06 08:27:41.009676 0x00007f9f1bfff700: <warning> (chain::RemoteApiForwarder.h@54) [40 log count] no packet io available for operation 'pull partial transactions task'
+2018-06-06 08:27:42.048468 0x00007f9f20bcb700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 60 (1 txes [0070C176] from Remote_Push)
+2018-06-06 08:27:42.085262 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 60 (1 txes [E49688F0] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:52.470699 0x00007f9f1bfff700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6726051554312383 (local) vs 6736051554312362 (remote)
+2018-06-06 08:27:52.512885 0x00007f9f20bcb700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 511 (fork depth = 0)
+2018-06-06 08:27:52.552047 0x00007f9f213cc700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 70 (1 txes [0070C176] from Remote_Push)
+2018-06-06 08:27:52.551898 0x00007f9f21bcd700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 1 blocks (heights 512 - 512)
+2018-06-06 08:27:52.552738 0x00007f9f21bcd700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 6 (1 blocks (heights 512 - 512) [1A000000] from Remote_Pull)
+2018-06-06 08:27:52.552816 0x00007f9f21bcd700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:27:52.581360 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 70 (1 txes [CFD7333F] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:27:52.601744 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 20 transactions, reverted 0 transactions
+2018-06-06 08:27:52.601870 0x00007f9ec37fe700: <debug> (cache::MemoryUtCache.cpp@173) removing 22 elements from ut cache
+2018-06-06 08:27:52.618040 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 6 (1 blocks (heights 512 - 512) [8A4937DB] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:28:02.051225 0x00007f9f1bfff700: <debug> (src::NetworkHeightService.cpp@45) network chain height increased from 511 to 512
+2018-06-06 08:28:02.556274 0x00007f9f20bcb700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 80 (1 txes [004E0010] from Remote_Push)
+2018-06-06 08:28:02.593248 0x00007f9eab7fe700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 80 (1 txes [516B9919] empty from Remote_Push), last consumer is 0 elements behind
+2018-06-06 08:28:04.556876 0x00007f9f20bcb700: <debug> (chain::CompareChains.cpp@95) comparing chain scores: 6736051554312362 (local) vs 6746051554312352 (remote)
+2018-06-06 08:28:04.595975 0x00007f9f1bfff700: <debug> (chain::ChainSynchronizer.cpp@290) pulling blocks from remote with common height 512 (fork depth = 0)
+2018-06-06 08:28:04.635308 0x00007f9f1bfff700: <info> (chain::ChainSynchronizer.cpp@203) peer returned 1 blocks (heights 513 - 513)
+2018-06-06 08:28:04.635380 0x00007f9f1bfff700: <debug> (disruptor::Disruptor.cpp@42) disruptor queuing element 7 (1 blocks (heights 513 - 513) [1A000000] from Remote_Pull)
+2018-06-06 08:28:04.635407 0x00007f9f1bfff700: <info> (chain::RemoteApiForwarder.h@65) completed 'synchronizer task' (BJ @ peer-node-0) with result Success
+2018-06-06 08:28:04.688242 0x00007f9ec37fe700: <debug> (chain::UtUpdater.cpp@79) confirmed 10 transactions, reverted 0 transactions
+2018-06-06 08:28:04.688329 0x00007f9ec37fe700: <debug> (cache::MemoryUtCache.cpp@173) removing 13 elements from ut cache
+2018-06-06 08:28:04.694800 0x00007f9ec2ffd700: <info> (disruptor::ConsumerDispatcher.cpp@44) completing processing of element 7 (1 blocks (heights 513 - 513) [32AFA790] from Remote_Pull), last consumer is 0 elements behind
+2018-06-06 08:28:05.081576 0x00007f9f24303740: <info> (server::Signals.cpp@50) termination signal 2 received
+2018-06-06 08:28:05.081670 0x00007f9f24303740: <info> (server::ServerMain.cpp@65) shutting down local node
+2018-06-06 08:28:05.081696 0x00007f9f24303740: <info> (utils::StackLogger.h@37) pushing scope 'shutting down local node'
+2018-06-06 08:28:05.081718 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down scheduler (service group)
+2018-06-06 08:28:05.081736 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::scheduler service 1
+2018-06-06 08:28:05.081788 0x00007f9f24303740: <info> (thread::Scheduler.cpp@200) Scheduler stopped
+2018-06-06 08:28:05.081887 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down readers (service group)
+2018-06-06 08:28:05.081916 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::readers service 2
+2018-06-06 08:28:05.081933 0x00007f9f24303740: <info> (net::AsyncTcpServer.cpp@110) AsyncTcpServer stopping
+2018-06-06 08:28:05.081999 0x00007f9f20bcb700: <warning> (ionet::PacketSocket.cpp@351) async_accept returned an error: system:125
+2018-06-06 08:28:05.082041 0x00007f9f24303740: <info> (net::AsyncTcpServer.cpp@116) AsyncTcpServer stopped
+2018-06-06 08:28:05.082063 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::readers service 1
+2018-06-06 08:28:05.082080 0x00007f9f24303740: <info> (net::PacketReaders.cpp@204) closing all connections in PacketReaders
+2018-06-06 08:28:05.082095 0x00007f9f24303740: <info> (net::ClientConnector.cpp@87) closing all connections in ClientConnector
+2018-06-06 08:28:05.082228 0x00007f9f20bcb700: <error> (ionet::PacketSocket.cpp@53) failed when reading from socket: Operation canceled
+2018-06-06 08:28:05.082274 0x00007f9f20bcb700: <warning> (net::ChainedSocketReader.cpp@66) reader (59DEDAA85E8A559968AD3503A90F59AC86ECB66324CB2DDC22FA7952AC67D63E @ 172.19.0.7) read completed with error: Read_Error
+2018-06-06 08:28:05.082324 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down timesync (service group)
+2018-06-06 08:28:05.082353 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::timesync service 1
+2018-06-06 08:28:05.082372 0x00007f9f24303740: <info> (net::ServerConnector.cpp@107) closing all connections in ServerConnector
+2018-06-06 08:28:05.082395 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down node_discovery (service group)
+2018-06-06 08:28:05.082415 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::node_discovery service 1
+2018-06-06 08:28:05.082432 0x00007f9f24303740: <info> (net::ServerConnector.cpp@107) closing all connections in ServerConnector
+2018-06-06 08:28:05.082454 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down partial (service group)
+2018-06-06 08:28:05.082473 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::partial service 1
+2018-06-06 08:28:05.082492 0x00007f9f24303740: <info> (net::PacketWriters.cpp@408) closing all connections in PacketWriters
+2018-06-06 08:28:05.082510 0x00007f9f24303740: <info> (net::ClientConnector.cpp@87) closing all connections in ClientConnector
+2018-06-06 08:28:05.082527 0x00007f9f24303740: <info> (net::ServerConnector.cpp@107) closing all connections in ServerConnector
+2018-06-06 08:28:05.082544 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down partial dispatcher (service group)
+2018-06-06 08:28:05.082559 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::partial dispatcher service 1
+2018-06-06 08:28:05.091184 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down ptUpdater (isolated pool)
+2018-06-06 08:28:05.091222 0x00007f9f24303740: <debug> (thread::IoServiceThreadPool.cpp@112) ptUpdater IoServiceThreadPool waiting for 4 threadpool threads to exit
+2018-06-06 08:28:05.091409 0x00007f9f24303740: <info> (thread::IoServiceThreadPool.cpp@114) ptUpdater IoServiceThreadPool all threadpool threads exited
+2018-06-06 08:28:05.091436 0x00007f9f24303740: <info> (thread::MultiServicePool.h@159) shutting down dispatcher service (service group)
+2018-06-06 08:28:05.091423 0x00007f9f213cc700: <error> (ionet::PacketSocket.cpp@62) failed when writing to socket: Broken pipe
+2018-06-06 08:28:05.091452 0x00007f9f24303740: <info> (thread::MultiServicePool.h@78) shutting down server::dispatcher service service 2
+2018-06-06 08:28:05.091458 0x00007f9f213cc700: <warning> (net::PacketWriters.cpp@294) closing socket due to broadcast write error
+2018-06-06 08:28:05.095253 0x00007f9f0bfff700: <fatal> (src::MongoBulkWriter.h@233) throwing exception: message: generic server error, description: { "nInserted" : 0, "nMatched" : 0, "nModified" : 0, "nRemoved" : 0, "nUpserted" : 0, "writeErrors" : [  ] }
+2018-06-06 08:28:05.095928 0x00007f9eab7fe700: <fatal> (cache::BasicAggregateTransactionsCache.h@54) error notifying subscribers of transaction changes: 
+Throw location unknown (consider using BOOST_THROW_EXCEPTION)
+Dynamic exception type: catapult::catapult_error<std::runtime_error>
+std::exception::what: message: generic server error, description: { "nInserted" : 0, "nMatched" : 0, "nModified" : 0, "nRemoved" : 0, "nUpserted" : 0, "writeErrors" : [  ] }
+
