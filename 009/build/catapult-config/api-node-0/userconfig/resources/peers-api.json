@@ -4,11 +4,11 @@
     {
       "publicKey": "3A0C3A4020A180A9262ED8C872C88AAA86A9C78748274133CCBE7B8225B35508",
       "endpoint": {
-        "host": "api-node-0",
+        "host": "localhost",
         "port": 7900
       },
       "metadata": {
-        "name": "api-node-0",
+        "name": "BJ",
         "roles": "Api"
       }
     }
