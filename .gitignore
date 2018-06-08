@@ -1,4 +1,3 @@
-data/*
 !data/README.md
 build/generated-addresses/*
 !build/generated-addresses/README.md
