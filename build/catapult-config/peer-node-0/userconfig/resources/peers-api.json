@@ -1,0 +1,16 @@
+{
+  "_info": "this file contains a list of api_node peers",
+  "knownPeers": [
+    {
+      "publicKey": "C45C70DF067F766F66CEB8D16EAC7784D46BF598945A61521C3637834453819A",
+      "endpoint": {
+        "host": "api-node-0",
+        "port": 7900
+      },
+      "metadata": {
+        "name": ".........localhost-api-node",
+        "roles": "Api"
+      }
+    }
+  ]
+}
